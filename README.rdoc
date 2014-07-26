@@ -4,7 +4,7 @@
 Простой менеджер проектов для совместной работы сотрудников компании.
 
 == Проект на Heroku
-<a href="http://simplepm-rubybursa.herokuapp.com">simplepm-rubybursa.herokuapp.com</a>
+http://simplepm-rubybursa.herokuapp.com
 
 == Функционал
 

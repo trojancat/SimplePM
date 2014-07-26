@@ -8,7 +8,7 @@ script:
 - bundle exec rake
 before_script:
 - cp config/database.yml.sample config/database.yml
-- psql -c 'create database pm_test' -U postgres
+- psql -c 'create database simplepm_test' -U postgres
 deploy:
   provider: heroku
   api_key:
