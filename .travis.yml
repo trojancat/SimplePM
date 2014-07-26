@@ -13,7 +13,7 @@ deploy:
   provider: heroku
   api_key:
     secure: q0GRtoBkzaUilAqxk+qB1fJC/X+BfN28R6FjdZV3mwgko89PBAX5pup9w1laUFjWGjxWBsWFMHRJLSkI/KeWbDZmw1xw1030R6VGnrQjpV1ZCIU9po7wHKcjRjLAwtOsVgbK1DnCnhM5cs9g/X8ZyE9lWY/gOKVb8uj0r5u4uv8=
-  app: SimplePM
+  app: simplepm-rubybursa
   on:
     repo: trojancat/SimplePM
     branch: dev
