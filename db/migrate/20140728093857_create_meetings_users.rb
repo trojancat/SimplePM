@@ -1,8 +1,8 @@
 class CreateMeetingsUsers < ActiveRecord::Migration
   def change
-    create_table :meetings_users do |t|
-      t.belongs_to  :meeting
-      t.belongs_to  :user
+    create_table :meetings_users, id: false do |t|
+      t.references  :meeting
+      t.references  :user
     end
   end
 end
