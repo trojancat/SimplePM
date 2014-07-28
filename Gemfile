@@ -29,6 +29,25 @@ gem 'spring',        group: :development
 # To enable features such as static asset serving and logging on Heroku.
 gem 'rails_12factor', group: :production
 
+# Authentication
+gem 'devise'
+
+# Authorization
+gem 'cancancan', '~> 1.9'
+
+# Use simple_form
+gem 'simple_form'
+
+# Use enumerated attributes
+gem 'enumerize'
+
+# Use state machines
+gem 'state_machine'
+
+# Use Carrierwave
+gem 'carrierwave'
+
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
