@@ -8,6 +8,6 @@ FactoryGirl.define do
     started_at { Date.now }
 
     association :project, factory: :project
-    association :owner, factory: :user
+    association :owned, factory: :user
   end
 end

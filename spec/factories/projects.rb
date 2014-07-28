@@ -7,6 +7,6 @@ FactoryGirl.define do
     status  { 1 }
     started_at { Date.now }
 
-    association :owner, factory: :user
+    association :owned, factory: :user
   end
 end
