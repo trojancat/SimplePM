@@ -47,6 +47,11 @@ gem 'state_machine'
 # Use Carrierwave
 gem 'carrierwave'
 
+# Use frontend toolkit Twitter Bootstrap 3
+gem 'twitter-bootstrap-rails'
+
+# Use Slim as a default templating engine
+gem 'slim-rails'
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
