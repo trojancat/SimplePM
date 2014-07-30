@@ -1,0 +1,18 @@
+local: &local
+  adapter: postgresql
+  encoding: unicode
+  username: admin
+  password: admin
+  host: localhost
+
+development:
+  <<: *local
+  database: simplepm_development
+
+test:
+  <<: *local
+  database: simplepm_test
+
+production:
+  <<: *local
+  database: simplepm_production

@@ -22,7 +22,7 @@ tmp/*
 public/assets/
 
 # Ignore db config file
-config/database.yml
+#config/database.yml
 !config/database.yml.sample
 
 # Ignore ngnix notice page
