@@ -1,8 +1,7 @@
 local: &local
   adapter: postgresql
   encoding: unicode
-  username: admin
-  password: admin
+  username: postgres
   host: localhost
 
 development:
