@@ -1,17 +1,17 @@
-local: &local
+development:
   adapter: postgresql
   encoding: unicode
-  username: postgres
-  host: localhost
-
-development:
-  <<: *local
-  database: simplepm_development
+  database: semenistyy_development
+  pool: 5
 
 test:
-  <<: *local
-  database: simplepm_test
+  adapter: postgresql
+  encoding: unicode
+  database: semenistyy_test
+  pool: 5
 
 production:
-  <<: *local
-  database: simplepm_production
+  adapter: postgresql
+  encoding: unicode
+  database: semenistyy_production
+  pool: 5
