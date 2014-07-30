@@ -1,17 +1,17 @@
 development:
   adapter: postgresql
   encoding: unicode
-  database: semenistyy_development
+  database: simplepm_dev
   pool: 5
 
 test:
   adapter: postgresql
   encoding: unicode
-  database: semenistyy_test
+  database: simplepm_test
   pool: 5
 
 production:
   adapter: postgresql
   encoding: unicode
-  database: semenistyy_production
+  database: simplepm_prod
   pool: 5
