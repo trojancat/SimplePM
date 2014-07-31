@@ -1,17 +1,18 @@
-development:
+local: &local
   adapter: postgresql
   encoding: unicode
-  database: simplepm_dev
-  pool: 5
+  username: admin
+  password: admin
+  host: localhost
+
+development:
+  <<: *local
+  database: simplepm_development
 
 test:
-  adapter: postgresql
-  encoding: unicode
+  <<: *local
   database: simplepm_test
-  pool: 5
 
 production:
-  adapter: postgresql
-  encoding: unicode
-  database: simplepm_prod
-  pool: 5
+  <<: *local
+  database: simplepm_production
