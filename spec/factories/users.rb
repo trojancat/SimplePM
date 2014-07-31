@@ -3,7 +3,7 @@
 FactoryGirl.define do
   factory :user do
     email { Faker::Internet.email }
-    password { Faker::Internet.password }
+    password { Faker::Lorem.characters(char_count = rand(10..20)) }
     name { Faker::Name.name }
     role 'member'
   end

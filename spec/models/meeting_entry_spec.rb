@@ -1,5 +1,12 @@
-require 'rails_helper'
+require 'spec_helper'
 
-RSpec.describe MeetingEntry, :type => :model do
-  pending "add some examples to (or delete) #{__FILE__}"
+describe MeetingEntry do
+  before(:each) do
+    @me = FactoryGirl.build(:meeting_entry)
+  end
+
+  it "has a valid factory" do
+    expect(@me).to be_valid
+  end
 end
+

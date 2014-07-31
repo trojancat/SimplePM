@@ -1,6 +1,7 @@
 source 'https://rubygems.org'
 
-
+# Ruby version
+ruby '2.1.2'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.1.4'
 # Use postgresql as the database for Active Record
@@ -47,6 +48,11 @@ gem 'state_machine'
 # Use Carrierwave
 gem 'carrierwave'
 
+# Use frontend toolkit Twitter Bootstrap 3
+gem 'twitter-bootstrap-rails'
+
+# Use Slim as a default templating engine
+gem 'slim-rails'
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
