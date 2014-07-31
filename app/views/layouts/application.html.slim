@@ -28,12 +28,12 @@ html lang="ru"
             span.icon-bar
             span.icon-bar
             span.icon-bar
-          a.brand href="#"Simplepm
+          = link_to 'SimplePM', root_path, class: 'brand'
           .container-fluid.nav-collapse
             ul.nav
-              li= link_to "Link 1", "/path1"
-              li= link_to "Link 2", "/path2"
-              li= link_to "Link 3", "/path3"
+              li= link_to "Мои проекты", "/path1"
+              li= link_to "Мои задачи", "/path2"
+              li= link_to "Совещания", "/path3"
 
     .container-fluid
 
@@ -41,13 +41,12 @@ html lang="ru"
         .span3
           .well.sidebar-nav
             ul.nav.nav-list
-              li.nav-header Sidebar
-              li= link_to "Link 1", "/path1"
-              li= link_to "Link 2", "/path2"
-              li= link_to "Link 3", "/path3"
+              li.nav-header Меню пользователя
+              li= link_to "Профиль", "/path1"
+              li= link_to "Сообщения", "/path2"
         .span9
           = bootstrap_flash
           = yield
     
       footer
-        p &copy; Company 2014
+        p &copy; SimplePM 2014
